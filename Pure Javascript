@@ -1,1 +1,12 @@
-#
+#### make array of string characters;
+string.split(separator, limit)
+
+separator	(Optional):Specifies the character,
+                      or the regular expression, to use for splitting the string. 
+                      If omitted, the entire string will be returned (an array with only one item)
+
+limit	(Optiona)l :An integer that specifies the number of splits, 
+                  items after the split limit will not be included in the array.
+var res = str.split("");
+if specify "" in split it will return all characters in array.
+____________________________________________________________
