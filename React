@@ -11,6 +11,8 @@ Import it at the top of your file.
 import Radium from 'radium';
 And in the export line you should use Raduim as a HOC.
 Radium is all about styles.
+
+pseudo selectors:
 You can use in your style object in your componenet like this:
 ':hover' or any other pseudo selectors.
 For example:
@@ -23,3 +25,15 @@ const style = {
  },
 
 };
+media queries:
+first you should import StyleRoot component
+from radium package as a named import.
+then wrap all entire your application with this 
+StyleRoot component then
+in your style use 
+'@media (min-width: 500px)':{
+ backgroundColor:'red',
+ .
+ .
+ .
+}
