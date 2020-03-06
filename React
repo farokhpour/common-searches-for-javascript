@@ -37,3 +37,7 @@ in your style use
  .
  .
 }
+#styled components third party package
+install it with npm.
+it is a alternative way for radium.
+see stylee components website docs.
