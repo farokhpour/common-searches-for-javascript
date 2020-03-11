@@ -1,6 +1,4 @@
-#use css pseudo selector and media-
-#queries in normal javascript inline-
-#styles in react componenets
+#use css pseudo selector and media queries in normal javascript inline styles in react componenets
 
 You can use these by a third party package install by node module
 Call 'radium'.
@@ -40,4 +38,4 @@ in your style use
 #styled components third party package
 install it with npm.
 it is a alternative way for radium.
-see stylee components website docs.
+see style components website docs.
